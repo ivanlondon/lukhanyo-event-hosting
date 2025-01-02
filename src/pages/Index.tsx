@@ -30,12 +30,12 @@ const Index = () => {
       <section id="home" className="section pt-32 bg-gradient-to-b from-primary/10 to-white">
         <div className="container grid md:grid-cols-2 gap-8 items-center">
           <div className="reveal">
-            <img 
-              src="/lovable-uploads/272af5e9-d40b-45c1-a2a1-bb52c52f74ab.png"
-              alt="Lukhanyo Signature"
-              className="w-48 mb-6"
-            />
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
+              <img 
+                src="/lovable-uploads/272af5e9-d40b-45c1-a2a1-bb52c52f74ab.png"
+                alt="Lukhanyo Signature"
+                className="w-48 mx-auto mb-4"
+              />
               Professional MC & Event Host
             </h1>
             <p className="text-lg mb-8 text-gray-600">
