@@ -31,12 +31,10 @@ const Index = () => {
         <div className="container grid md:grid-cols-2 gap-8 items-center">
           <div className="reveal">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              <img 
-                src="/lovable-uploads/272af5e9-d40b-45c1-a2a1-bb52c52f74ab.png"
-                alt="Lukhanyo Signature"
-                className="w-48 mx-auto mb-4"
-              />
-              Professional MC & Event Host
+              Lukhanyo Nogqala
+              <span className="block text-3xl md:text-4xl mt-4">
+                Professional MC & Event Host
+              </span>
             </h1>
             <p className="text-lg mb-8 text-gray-600">
               Creating memorable experiences through dynamic hosting and expert moderation
