@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import Navigation from "@/components/Navigation";
+import MainNavigation from "@/components/MainNavigation";
 import { Award, Briefcase, Calendar } from "lucide-react";
 
 const Index = () => {
@@ -24,7 +24,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen">
-      <Navigation />
+      <MainNavigation />
       
       {/* Hero Section */}
       <section id="home" className="section pt-32 bg-gradient-to-b from-primary/10 to-white">
