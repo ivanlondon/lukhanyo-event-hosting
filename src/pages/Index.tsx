@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import Navigation from "@/components/Navigation";
-import { Award, Briefcase, Microphone, Calendar } from "lucide-react";
+import { Award, Briefcase, Calendar } from "lucide-react";
 
 const Index = () => {
   useEffect(() => {
@@ -79,7 +79,7 @@ const Index = () => {
                 description: "Expert moderation for panel discussions, conferences, and networking events.",
               },
               {
-                icon: <Microphone className="w-12 h-12 text-primary" />,
+                icon: <Award className="w-12 h-12 text-primary" />,
                 title: "Entertainment & Lifestyle",
                 description: "Professional hosting for awards shows, red carpet events, and cultural showcases.",
               },
