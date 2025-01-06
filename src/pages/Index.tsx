@@ -166,12 +166,6 @@ const Index = () => {
                 </a>
               </div>
               <div className="flex items-center justify-center gap-2">
-                <Mail className="w-5 h-5" />
-                <a href="mailto:lukhanyo23@gmail.com" className="hover:text-primary transition-colors">
-                  lukhanyo23@gmail.com
-                </a>
-              </div>
-              <div className="flex items-center justify-center gap-2">
                 <Phone className="w-5 h-5" />
                 <a href="tel:+27840364595" className="hover:text-primary transition-colors">
                   +27 84 036 4595
