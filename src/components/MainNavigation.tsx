@@ -19,7 +19,7 @@ const MainNavigation = () => {
           <img 
             src="/lovable-uploads/272af5e9-d40b-45c1-a2a1-bb52c52f74ab.png"
             alt="Lukhanyo Signature"
-            className="h-12" // Increased from h-8 to h-12
+            className="h-12"
           />
         </a>
 

@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import MainNavigation from "@/components/MainNavigation";
+import SocialLinks from "@/components/SocialLinks";
 import { Award, Briefcase, Calendar, Mail, Phone } from "lucide-react";
 
 const Index = () => {
@@ -177,32 +178,7 @@ const Index = () => {
                 </a>
               </div>
             </div>
-            <div className="flex justify-center gap-6">
-              <a
-                href="https://www.facebook.com/LukhanyonogqalaMC/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-primary text-white px-8 py-3 rounded-full hover:bg-primary/90 transition-colors inline-block"
-              >
-                Facebook
-              </a>
-              <a
-                href="https://www.instagram.com/lukhanyonogqala/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-primary text-white px-8 py-3 rounded-full hover:bg-primary/90 transition-colors inline-block"
-              >
-                Instagram
-              </a>
-              <a
-                href="https://www.tiktok.com/@lukhanyonogqala"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-primary text-white px-8 py-3 rounded-full hover:bg-primary/90 transition-colors inline-block"
-              >
-                TikTok
-              </a>
-            </div>
+            <SocialLinks />
           </div>
         </div>
       </section>
