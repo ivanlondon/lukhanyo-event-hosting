@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import MainNavigation from "@/components/MainNavigation";
-import { Award, Briefcase, Calendar } from "lucide-react";
+import { Award, Briefcase, Calendar, Mail, Phone } from "lucide-react";
 
 const Index = () => {
   useEffect(() => {
@@ -157,12 +157,52 @@ const Index = () => {
             <p className="mb-8">
               Let's make your event unforgettable. Contact Lukhanyo today to discuss your hosting and moderation needs.
             </p>
-            <a
-              href="mailto:contact@lukhanyo.com"
-              className="bg-primary text-white px-8 py-3 rounded-full hover:bg-primary/90 transition-colors inline-block"
-            >
-              Get in Touch
-            </a>
+            <div className="space-y-4 mb-8">
+              <div className="flex items-center justify-center gap-2">
+                <Mail className="w-5 h-5" />
+                <a href="mailto:bookings@lukhanyonogqala.co.za" className="hover:text-primary transition-colors">
+                  bookings@lukhanyonogqala.co.za
+                </a>
+              </div>
+              <div className="flex items-center justify-center gap-2">
+                <Mail className="w-5 h-5" />
+                <a href="mailto:lukhanyo23@gmail.com" className="hover:text-primary transition-colors">
+                  lukhanyo23@gmail.com
+                </a>
+              </div>
+              <div className="flex items-center justify-center gap-2">
+                <Phone className="w-5 h-5" />
+                <a href="tel:+27840364595" className="hover:text-primary transition-colors">
+                  +27 84 036 4595
+                </a>
+              </div>
+            </div>
+            <div className="flex justify-center gap-6">
+              <a
+                href="https://www.facebook.com/LukhanyonogqalaMC/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-primary text-white px-8 py-3 rounded-full hover:bg-primary/90 transition-colors inline-block"
+              >
+                Facebook
+              </a>
+              <a
+                href="https://www.instagram.com/lukhanyonogqala/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-primary text-white px-8 py-3 rounded-full hover:bg-primary/90 transition-colors inline-block"
+              >
+                Instagram
+              </a>
+              <a
+                href="https://www.tiktok.com/@lukhanyonogqala"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-primary text-white px-8 py-3 rounded-full hover:bg-primary/90 transition-colors inline-block"
+              >
+                TikTok
+              </a>
+            </div>
           </div>
         </div>
       </section>
