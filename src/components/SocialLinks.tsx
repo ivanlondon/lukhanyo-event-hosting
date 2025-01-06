@@ -35,7 +35,8 @@ const SocialLinks = () => {
           strokeLinecap="round" 
           strokeLinejoin="round"
         >
-          <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" />
+          <path d="M16.6 4.2A5 5 0 0 1 20 8v.5a5 5 0 0 1-5 5v-2a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3h-.5" />
+          <path d="M10 8a5 5 0 0 0-5 5v3a5 5 0 0 0 10 0v-8a3 3 0 0 1-2-2.8" />
         </svg>
       </a>
     </div>
